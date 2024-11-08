@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "strict": true,
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
