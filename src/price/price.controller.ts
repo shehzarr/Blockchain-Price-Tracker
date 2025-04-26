@@ -1,4 +1,4 @@
-import { Controller, Get, Query, Post, Body } from '@nestjs/common';
+import { Controller, Get, Post, Body } from '@nestjs/common';
 import { PriceService } from './price.service';
 import { SetAlertDto } from './set-alert.dto';
 import { SwapDto } from './swap.dto';

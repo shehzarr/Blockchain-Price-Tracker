@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import { Cron } from '@nestjs/schedule';
-import { InjectRepository } from '@nestjs/typeorm';
 import { MoreThanOrEqual, Repository } from 'typeorm';
 import { Alert, Price } from './price.entity';
 import * as nodemailer from 'nodemailer';
